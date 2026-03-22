@@ -1,7 +1,7 @@
 import type { MetadataRoute } from "next";
 
 const BASE_URL =
-  process.env.NEXT_PUBLIC_BASE_URL ?? "https://oudtechnologies.com";
+  process.env.NEXT_PUBLIC_BASE_URL ?? "https://www.oudtechnologies.com";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   return [
