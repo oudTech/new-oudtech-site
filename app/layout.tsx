@@ -1,4 +1,5 @@
 import type { Metadata, Viewport } from "next";
+// added comments so I can test
 import "./globals.css";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
