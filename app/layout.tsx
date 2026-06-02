@@ -38,7 +38,8 @@ const neueMontreal = localFont({
   display: "swap",
 });
 
-const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL ?? "https://oudtech.com";
+const BASE_URL =
+  process.env.NEXT_PUBLIC_BASE_URL ?? "https://oudtechnologies.com";
 
 export const metadata: Metadata = {
   metadataBase: new URL(BASE_URL),
@@ -72,7 +73,7 @@ export const metadata: Metadata = {
     description: "Cutting-edge technology solutions for ambitious businesses.",
     images: [
       {
-        url: "/og-image.jpg",
+        url: "/og-img.png",
         width: 1200,
         height: 630,
         alt: "OudTech — Modern Technology Solutions",
@@ -83,7 +84,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "OudTech — Modern Technology Solutions",
     description: "Cutting-edge technology solutions for ambitious businesses.",
-    images: ["/og-image.jpg"],
+    images: ["/og-img.png"],
     creator: "@oudtech",
   },
   alternates: {
